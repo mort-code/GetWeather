@@ -1,6 +1,6 @@
 # GetWeather (via Open-Meteo)
 
-A robust Google Apps Script that adds a custom `=GET_WEATHER(location, date)` function to Google Sheets. It automatically fetches both historical weather data and future forecasts using the free [Open-Meteo API](https://open-meteo.com/). Open-Meteo's API data are offered under Attribution 4.0 International (CC BY 4.0). Open-Meteo is open-source. Source code is available on [GitHub](https://github.com/open-meteo/open-meteo) under the [GNU Affero General Public Licence Version 3 AGPLv3](https://github.com/open-meteo/open-meteo/blob/main/LICENSE) or any later version.
+A robust Google Apps Script that adds a custom `=GET_WEATHER(location, date)` function to Google Sheets. It automatically fetches both historical weather data and future forecasts using the free [Open-Meteo API](https://open-meteo.com/).
 
 ## Features
 * **Smart API Routing:** Automatically switches between Open-Meteo's Historical Archive and Forecast APIs based on the requested date.
@@ -52,3 +52,9 @@ The custom function requires two arguments: `Location` and `Date`.
 **Example:**
 ```excel
 =GET_WEATHER("10001", "2023-12-25")
+```
+
+---
+
+## License
+Open-Meteo's API data are offered under Attribution 4.0 International (CC BY 4.0). Open-Meteo is open-source. Source code is available on [GitHub](https://github.com/open-meteo/open-meteo) under the [GNU Affero General Public Licence Version 3 AGPLv3](https://github.com/open-meteo/open-meteo/blob/main/LICENSE) or any later version.
